@@ -1,0 +1,26 @@
+{
+  "name": "tradingeconomics-adapter",
+  "version": "0.1.0",
+  "main": "index.js",
+  "repository": "git@github.com:boxhock/tradingeconomics-adapter.git",
+  "author": "Jonas Hals <jonas@smartcontract.com>",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "eslint": "^7.3.1",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1"
+  },
+  "dependencies": {
+    "@chainlink/ea-bootstrap": "^0.0.1",
+    "@chainlink/external-adapter": "^0.2.3",
+    "express": "^4.17.1",
+    "tradingeconomics-stream": "^0.1.2"
+  },
+  "scripts": {
+    "serve": "node index.js"
+  }
+}
