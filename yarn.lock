@@ -1619,12 +1619,11 @@ toidentifier@1.0.0:
   resolved "https://registry.yarnpkg.com/toidentifier/-/toidentifier-1.0.0.tgz#7e1be3470f1e77948bc43d94a3c8f4d7752ba553"
   integrity sha512-yaOH/Pk/VEhBWWTlhI+qXxDFXlejDGcQipMlyxda9nthulaxLZUNcUqFxokp0vcYnvteJln5FNQDRrxj3YcbVw==
 
-tradingeconomics-stream@^0.1.2:
-  version "0.1.2"
-  resolved "https://registry.yarnpkg.com/tradingeconomics-stream/-/tradingeconomics-stream-0.1.2.tgz#2906d8fb5e054ac8dae6a33019d62495fd58a9e2"
-  integrity sha512-Lg+PHd4EqEe20CZyP2QF/6JtXFkjiSirqCH612eStWVPH3xUYbScVj72L3F9v8uQwa2NHOn09AOP9shK59JNVQ==
+tradingeconomics-stream@^0.2.0:
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/tradingeconomics-stream/-/tradingeconomics-stream-0.2.0.tgz#33dd534b3a07d2b97a32eef9a5494057f0b802f2"
+  integrity sha512-mG81m32D2NRD7i4pIAfRpESwSaguPJKAAC2PXyCfXvKd69Hkr6Gzyb9xwMYfShtICTF4z3ARKiso0gLoup/zJQ==
   dependencies:
-    eslint "^7.3.1"
     ws "^7.3.0"
 
 triple-beam@^1.2.0, triple-beam@^1.3.0:

@@ -18,7 +18,7 @@
     "@chainlink/ea-bootstrap": "^0.0.1",
     "@chainlink/external-adapter": "^0.2.3",
     "express": "^4.17.1",
-    "tradingeconomics-stream": "^0.1.2"
+    "tradingeconomics-stream": "^0.2.0"
   },
   "scripts": {
     "serve": "node index.js"
