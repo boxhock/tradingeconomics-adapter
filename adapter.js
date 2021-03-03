@@ -40,7 +40,9 @@ const commonSymbols = {
 }
 
 const createRequest = (input, callback) => {
-  const validator = new Validator(callback, input, customParams)
+  const validator = new Validator(input, customParams)
+  if (validator.errored) return callback(500, Requester.errored(1, 'failed input validation'))
+
   const jobRunID = validator.validated.id
   let symbol = validator.validated.data.base.toUpperCase()
   if (symbol in commonSymbols) {
